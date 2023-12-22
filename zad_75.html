@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 7px solid black;
+}
+td {
+  border: 5px solid red;
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+  height: 50px; /* Adjust the height as needed */
+}
+/* Custom styles for the gradient backgrounds */
+</style>
+</head>
+<body>
+
+<table>
+  <!-- First row with one cell spanning two columns -->
+  <tr>
+    <td colspan="2" style="background:linear-gradient(white, black);">background:linear-gradient(white, black)</td>
+  </tr>
+  <!-- Second row with two cells -->
+  <tr>
+    <td style="background:linear-gradient(white, red);">background:linear-gradient(white, red)</td>
+    <td style="background:linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);">background:linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia)</td>
+  </tr>
+  <!-- Third row with two cells -->
+  <tr>
+    <td style="background:radial-gradient(circle, blue, red, yellow);">background:radial-gradient(circle, blue, red, yellow)</td>
+    <td style="background:radial-gradient(ellipse 66% 33% at right top, white, red 75%, silver);">background:radial-gradient(ellipse 66% 33% at right top, white, red 75%, silver)</td>
+  </tr>
+</table>
+
+<!-- Comment: Egor Sidorenko -->
+
+</body>
+</html>
